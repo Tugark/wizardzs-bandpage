@@ -1,15 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import reportWebVitals from './reportWebVitals';
+import { ThemeProvider } from '@mui/material'
+import customTheme from './custom-theme'
+import '@fontsource/nunito/300.css';
+import '@fontsource/nunito/400.css';
+import '@fontsource/nunito/500.css';
+import '@fontsource/nunito/700.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={customTheme}>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 

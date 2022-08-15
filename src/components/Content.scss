@@ -1,0 +1,10 @@
+.content {
+    z-index: 1;
+    background-color: rgba(66, 66, 66, 0.8);
+
+    .content--logo {
+        width: 100%;
+        max-width: 450px;
+        display: block;
+    }
+}
