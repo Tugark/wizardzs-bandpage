@@ -1,6 +1,6 @@
 import backgroundVideo from '../assets/background.mp4'
 import React from 'react'
-import './BackgroundVideo.css'
+import './BackgroundVideo.scss'
 
 const BackgroundVideo = () => {
   return (

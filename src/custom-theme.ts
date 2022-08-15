@@ -8,8 +8,11 @@ const theme = createTheme({
     ].join(',')
   },
   palette: {
+    primary: {
+      main: '#FFFFFF'
+    },
     text: {
-      primary: 'white',
+      primary: '#FFFFFF',
     },
     background: {
       paper: alpha('#424242', 0.8),
